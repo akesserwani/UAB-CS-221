@@ -1,18 +1,22 @@
-
-/* material blue #2196F3 */
+/* Colors */
+/* blue #2196F3 */
 /* dark blue #0D47A1  */
 /* light grey #E0E0E0 */
 
+/* Entire font is Arial, line height 1.7 for space*/
 
 * {
   font-family: Arial;
   line-height: 1.7;
 
 }
+
+/* Body has gray background */
 body {
   background-color: #E0E0E0;
 }
 
+/* Alternating blue sections, header and projects section */
 header, #projects {
   background-color: #2196F3;
   padding: 20px;
@@ -20,17 +24,20 @@ header, #projects {
   
 }
 
+/* Footer is dark blue*/
 footer {
   background-color: #0D47A1;
   padding: 20px;
   margin: -10px;
 }
 
+/* Links have no lines */
 a {
   text-decoration: none;
   color: #0D47A1;
 }
 
+/* Links in navbar are rounded buttons*/
 
 .nav_link{
   background-color: #0D47A1;
@@ -43,6 +50,8 @@ a {
   display: inline-block;
 }
 
+/* Buttons on Navbar change color when hovered */
+
 .nav_link:hover{
   background-color: #888888;
 }
@@ -50,6 +59,8 @@ a {
 h2 {
   text-align: center;
 }
+
+/* Changed display of the hr line to appear darker and more solid */
 
 hr {
   display: block;
@@ -59,6 +70,7 @@ hr {
   padding: 0;
 }
 
+/* Border of the image */
 img {
   border: 1px solid;
 }
