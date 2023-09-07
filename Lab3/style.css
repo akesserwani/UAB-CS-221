@@ -1,0 +1,55 @@
+
+/* material blue #2196F3 */
+/* dark blue #0D47A1  */
+/* light grey #E0E0E0 */
+
+
+* {
+  font-family: Arial;
+  line-height: 1.7;
+
+}
+body {
+  background-color: #E0E0E0;
+}
+
+header, #projects {
+  background-color: #2196F3;
+  padding: 20px;
+  margin: -10px;
+  
+}
+
+footer {
+  background-color: #0D47A1;
+  padding: 20px;
+  margin: -10px;
+}
+
+a {
+  text-decoration: none;
+  color: #0D47A1;
+}
+
+.nav_link{
+  background-color: #0D47A1;
+  color: #ffffff;
+  padding: 15px 15px;
+  text-align: center; 
+  text-decoration: none;
+  border-radius: 15px;
+
+}
+
+
+h2 {
+  text-align: center;
+}
+
+hr {
+  display: block;
+  height: 2px;
+  border: 0;
+  border-top: 1px solid rgb(0, 0, 0);
+  padding: 0;
+}
