@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p {
+  padding: 1em;
+}
+
+header {
+  position:sticky;
+  background-color: aqua;
+  border-bottom: 3px solid black;
+  height: 50px;
+
+}
+
+main {
+  background-color: blue;
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+  height: 50px;
+
+}
+
+footer {
+  background-color: red;
+  position: fixed;
+  bottom:0;
+  left:0;
+  width: 100%;
+  height: 50px;
+
+}
